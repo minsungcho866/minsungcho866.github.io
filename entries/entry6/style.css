@@ -1,0 +1,100 @@
+body {
+    background-image: url(imgs/background\ 1\ your\ name\ is.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 100px;
+    }
+  }
+  @media all and (min-width: 801px) {
+    h1 {
+        font-size: 200px;
+    }
+  }
+
+h1 {
+    color:white;
+    font-size: 200px;
+}
+
+.img {
+    filter: drop-shadow(6px 6px 6px #222);
+}
+
+h2 {
+    font-size: 80px;
+    color: white;
+}
+.last{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    position:relative; right:700px; top: -71px
+}
+
+.last:hover {
+    transform: translateY(-10px);
+}
+
+.next{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    position:relative; 
+    left:700px; 
+    top: -170px
+}
+
+.next:hover {
+    transform: translateY(-10px);
+}
+
+.home {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    position:relative;
+    top: 5px;
+}
+
+
+.home:hover {
+    transform: translateY(-10px);
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
