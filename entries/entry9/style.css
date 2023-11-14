@@ -1,0 +1,275 @@
+*{ padding: 0; margin: 0; }
+.cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(189, 199, 207);
+    flex-direction: column;
+ }
+  
+ .card {
+     flex: 0 1 24%;
+ }
+@media all and (min-width: 801px){
+    body {
+        background-color: rgb(254, 252, 239);
+    }
+
+h1{
+font-family: "rafaella", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 150px;
+}
+nav{
+    position:relative;
+    left: -220px;
+    font-size: 16px;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin-left: 400px;
+}
+
+nav li a{
+    font-style: normal;
+    text-decoration: none; color: black;
+}
+
+.contents01 {
+    position: relative;
+    bottom: -200px;
+    height: 700px;
+    background-color: #E3EAE0;
+}
+
+h2{
+    font-family: 'Thabit', sans-serif;
+    font-size: 50px;
+    text-align: right;
+    position: relative;
+    top: 200px;
+    left: -200px;
+
+}
+h3{
+    font-family: 'Thabit', sans-serif;
+    font-size: 30px;
+    text-align: right;
+    position: relative;
+    top: 205px;
+    left: -250px;
+}
+
+.imgs {
+    width: 550px;
+    height: 550px;
+
+    position: relative;
+    left: 200px;
+}
+
+.lyrics {
+    font-family: 'Thabit', sans-serif;
+    text-align: right;
+    position: relative;
+    top: -340px;
+    left: -110px;
+}
+ 
+.square {
+    height: 700px;
+    width: 600px;
+    background-color: #E3EAE0;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+    position: relative;
+    top: 400px;
+    }
+
+    h4{
+        font-family: "rafaella", sans-serif;
+font-weight: 400;
+font-style: normal;
+        font-size: 60px;
+
+        position: relative;
+        top: 180px;
+    }
+
+    p{
+        font-family: 'Thabit', sans-serif;
+        font-size: 24px;
+
+        position: relative;
+        top: 200px;
+    }
+
+    .contents03{
+    position: relative;
+    top: 700px;
+    text-align: center;
+
+    font-size: 35px;
+    color: #879279;
+    font-family: "rafaella", sans-serif;
+font-weight: 400;
+font-style: normal;
+    }
+
+    .contents04{
+        background-color: #E3EAE0;
+
+        position: relative;
+        top: 1000px;
+        height: 500px;
+    }
+
+    h5{
+        font-family: 'Thabit', sans-serif;
+
+        font-size: 60px;
+    }
+
+    h6{
+        font-family: 'Thabit', sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+body {
+        background-color: #F3FFFD;
+}
+
+h1{
+font-family: 'Thabit', sans-serif;
+font-size: 100px;
+}
+nav{
+    position:relative;
+    left: -220px;
+    font-size: 12px;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin-left: 400px;
+}
+
+nav li a{
+    font-style: normal;
+    text-decoration: none; color: rgb(53, 55, 10);
+}
+
+.contents01 {
+    position: relative;
+    bottom: -200px;
+    height: 1200px;
+    background-color: #FCFFDA;
+}
+
+h2{
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: right;
+    position: relative;
+    top: 640px;
+    left: -200px;
+
+}
+h3{
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    font-size: 30px;
+    text-align: right;
+    position: relative;
+    top: 605px;
+    left: -250px;
+}
+
+.imgs {
+    width: 450px;
+    height: 450px;
+
+    position: relative;
+    left: 150px;
+}
+
+.lyrics {
+    font-family: 'Thabit', sans-serif;
+    text-align: right;
+    position: relative;
+    top: 170px;
+    left: -130px;
+}
+ 
+.square {
+    height: 700px;
+    width: 600px;
+    background-color: #FCFFDA;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+    position: relative;
+    top: 400px;
+    }
+
+    h4{
+        font-family: "rafaella", sans-serif;
+font-weight: 400;
+font-style: normal;
+        font-size: 60px;
+
+        position: relative;
+        top: 180px;
+    }
+
+    p{
+        font-family: 'Thabit', sans-serif;
+        font-size: 24px;
+
+        position: relative;
+        top: 200px;
+    }
+
+    .contents03{
+    position: relative;
+    top: 700px;
+    text-align: center;
+
+    font-size: 25px;
+    color: #879279;
+    font-family: 'Thabit', sans-serif;
+
+    }
+
+    .contents04{
+        background-color: #FCFFDA;
+
+        position: relative;
+        top: 1000px;
+        height: 500px;
+    }
+
+    h5{
+        font-family: "rafaella", sans-serif;
+font-weight: 400;
+font-style: normal;
+        font-size: 30px;
+    }
+
+    h6{
+        font-family: 'Thabit', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+    }
+}
+
+
