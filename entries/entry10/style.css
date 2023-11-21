@@ -18,7 +18,6 @@ body {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s; 
-    -webkit-filter: drop-shadow(6px 6px 6px #222);
 }
 
 .imgs:hover {
@@ -101,7 +100,6 @@ body {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s; 
-    -webkit-filter: drop-shadow(6px 6px 6px #222);
 }
 
 .imgs:hover {
