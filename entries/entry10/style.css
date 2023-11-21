@@ -1,0 +1,179 @@
+
+@media all and (min-width: 801px) 
+{
+body {
+  background: #ffffff;
+  background-size: cover;
+}
+
+.imgs {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+
+    width: 500px;
+    height: 500px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    -webkit-filter: drop-shadow(6px 6px 6px #222);
+}
+
+.imgs:hover {
+    transform: translateY(-10px);
+}
+
+h1{
+font-family: "flood-std", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 100px;
+text-align: center;
+color: rgb(107, 113, 210);
+
+position: absolute;
+top: -20px;
+left: 350px;
+}
+
+h2{
+    font-family: "flood-std", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 500px;
+text-align: center;
+color: rgb(107, 113, 210);
+opacity: 20%;
+
+position: absolute;
+top: -1350px;
+left: -200px;
+}
+
+.wrapper {
+  width: 1510px;
+  height: 800px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  overflow: hidden;
+}
+
+.wave {
+  width: 1000px;
+  height: 2025px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+}
+
+
+@media all and (max-width: 800px) 
+{
+body {
+  background: #ffffff;
+  background-size: cover;
+}
+
+.imgs {
+    position: absolute;
+    top: 200px;
+
+    width: 250px;
+    height: 250px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    -webkit-filter: drop-shadow(6px 6px 6px #222);
+}
+
+.imgs:hover {
+    transform: translateY(-10px);
+}
+
+h1{
+font-family: "flood-std", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 150px;
+text-align: center;
+color: rgb(223, 211, 100);
+
+position: absolute;
+top: -20px;
+left: 150px;
+}
+
+h2{
+    font-family: "flood-std", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 100px;
+text-align: center;
+color: rgb(107, 113, 210);
+opacity: 20%;
+
+position: absolute;
+top: -1350px;
+left: -200px;
+}
+
+.wrapper {
+  width: 700px;
+  height: 800px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to top, #dabf53 0%, #e7f0fd 100%);
+  overflow: hidden;
+}
+
+.wave {
+  width: 1000px;
+  height: 2025px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
