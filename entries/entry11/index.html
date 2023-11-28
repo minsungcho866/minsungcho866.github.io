@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Married life</title>
+</head>
+<body>
+    <h1>Married Life</h1>
+<div id="container">
+	<span id="text1"></span>
+	<span id="text2"></span>
+</div>
+
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			<feColorMatrix in="SourceGraphic"
+					type="matrix"
+					values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+		</filter>
+	</defs>
+</svg>
+
+<h2>This is the song that I listen to when I am stress. The song is very calm and makes to to think about happy things.</h2>
+
+<img src="imgs/playbutton.png" class="imgs" onclick="playAudio('music/Married Life.mp3')">
+
+  <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
