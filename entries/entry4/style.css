@@ -1,3 +1,5 @@
+@media all and (min-width: 801px) 
+{
 body {
     background-image: url(imgs/background\ .jpeg);
     background-size: cover;
@@ -91,7 +93,9 @@ top: -400px;
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s; 
-    position:relative; right:700px; top: -110px
+    position:relative; 
+    right:700px; 
+    top: -110px
 }
 
 .last:hover {
@@ -144,4 +148,164 @@ top: -400px;
 
 .home:hover {
     transform: translateY(-10px);
+}
+}
+
+@media all and (max-width: 800px) 
+{
+body {
+    background-image: url(imgs/background\ .jpeg);
+    background-size: cover;
+
+
+}
+
+.title {
+    margin: -150px;
+    width:800px;
+    height: 700px;
+}
+
+.albumcover {
+    position: relative;
+    top: -1200px;
+    left: -70px;
+}
+
+.albumcover:hover {
+    opacity: 20%;
+}
+
+.names {
+    position: relative;
+    top: -800px;
+    right: 40px;
+}
+
+.eminem {
+    position: relative;
+    top: -700px;
+    right: -180px;
+}
+
+h2 {
+    font-family: "viktorie", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+
+position: relative;
+top: 100px;
+left: -55px;
+}
+
+h3 {
+font-family: "viktorie", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+
+position: relative;
+top: -380px;
+}
+
+p {
+    font-family: "felt-tip-woman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 27px;
+
+position: relative;
+top: 80px;
+left: -50px;
+}
+
+.music {
+    position: relative;
+top: -400px;
+}
+
+.lyrics {
+    position: relative;
+    top: -420px;
+    font-family: "felt-tip-woman", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:24px; 
+}
+
+.last{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #000000;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "viktorie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    position:relative; 
+    right:320px; 
+    top: -110px
+}
+
+.last:hover {
+    transform: translateY(-10px);
+}
+
+.next{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #000000;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "viktorie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    position:relative; 
+    left:340px; 
+    top: -225px
+}
+
+.next:hover {
+    transform: translateY(-10px);
+}
+
+.home {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: #000000;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "viktorie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    position:relative;
+    top: 5px;
+}
+
+
+.home:hover {
+    transform: translateY(-10px);
+}
 }

@@ -1,12 +1,3 @@
-@keyframes color {
-    0%   { background: #d66161; }
-    20%  { background: #916464; }
-    40%  { background: #5f212a; }
-    60%  { background: #a1767b; }
-    80%  { background: #de6e6e; }
-    100% { background: #942c2c; }
-  }
-  
   body {
     animation: color 9s infinite linear;
     text-align: center;
@@ -18,6 +9,15 @@
 
 
 @media all and (max-width: 800px) {
+  @keyframes color {
+    0%   { background: #713f75; }
+    20%  { background: #774a73; }
+    40%  { background: #72446f; }
+    60%  { background: #a1767b; }
+    80%  { background: #936e90; }
+    100% { background: #855887; }
+  }
+  
     h1 {
         color: white;
         font: bold 600% Consolas, Monaco, monospace;
@@ -118,6 +118,16 @@
     
   }
   @media all and (min-width: 801px) {
+
+    @keyframes color {
+      0%   { background: #d66161; }
+      20%  { background: #916464; }
+      40%  { background: #5f212a; }
+      60%  { background: #a1767b; }
+      80%  { background: #de6e6e; }
+      100% { background: #942c2c; }
+    }
+    
     h1 {
         color: white;
         font: bold 600% Consolas, Monaco, monospace;

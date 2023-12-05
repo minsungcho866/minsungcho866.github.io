@@ -1,3 +1,5 @@
+@media all and (min-width: 801px) 
+{
 *{ padding: 0; margin: 0; }
 .cards {
     display: flex;
@@ -61,7 +63,8 @@ background-color: rgb(198, 194, 182);
 font-family: "arial", sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 14px;
+font-size: 16px;
+text-align: left;
 }
             
 .fixed01{
@@ -145,4 +148,158 @@ transform: translateY(-10px);
 
 .music {
 position:relative; left:0px; top: -610px
+}
+}
+
+@media all and (max-width: 800px) 
+{
+*{ padding: 0; margin: 0; }
+.cards {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(189, 199, 207);
+    flex-direction: column;
+ }
+  
+ .card {
+     flex: 0 1 24%;
+ }
+
+header{ 
+width: 100%; 
+height: 280px; 
+background-color: rgb(117, 97, 82); 
+font-size: 240px;
+font-family: "palomino-sans-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-shadow:5px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer{ 
+width: 100%; 
+height: 100px; 
+background-color: #837d6f; 
+}
+
+main{ 
+width: 100%; 
+height: 900px; 
+background-image: url("imgs/n95blur.png");
+background-blend-mode: darken;
+background-size: cover;
+}
+
+.contents01 {
+width: 100%; 
+height: 400px; 
+background-color: rgb(134, 128, 107); 
+font-family: "arial", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+}
+
+.contents02 { 
+width: 100%; 
+height: 400px; 
+background-color: rgb(134, 128, 107); 
+font-family: "palomino-sans-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 25px;
+}
+
+.contents03{ 
+width: 100%; 
+height: 660px; 
+background-color: rgb(198, 194, 182); 
+font-family: "arial", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+}
+            
+.fixed01{
+width: 100%; 
+height: 300px;
+
+
+background-image: url("imgs/background\ .webp");
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: center; 
+background-attachment: fixed; 
+
+font-size: 140px;
+color: #dad9d9;
+font-family: "palomino-sans-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+            
+.fixed02{
+width: 100%; 
+height: 300px;
+                
+background-image: url("imgs/kendricklamar.webp");
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: center; 
+background-attachment: fixed; 
+
+font-size: 140px;
+color: #dad9d9;
+font-family: "palomino-sans-one", sans-serif;
+font-weight: 400;
+font-style: normal;
+width: 100%; 
+}
+            
+
+.square {
+height: 700px;
+width: 500px;
+background-color: hsl(0, 0%, 100%);
+-webkit-filter: drop-shadow(6px 6px 6px #222);
+border-radius: 25px;
+}
+            
+.img {
+background-color: #ffffff;
+position:relative; left:0px; top: -650px
+}
+
+.title {
+font-size: 30px; 
+font-family: "komet", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: rgb(0, 0, 0);
+position:relative; left:0px; top: -580px
+}
+.name {
+font-size: 24px; 
+opacity: 60%;
+font-family: "komet", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgb(0, 0, 0);
+position:relative; left:0px; top: -580px
+}      
+
+.btn {
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s; 
+}
+
+.btn:hover {
+transform: translateY(-10px);
+}
+
+.music {
+position:relative; left:0px; top: -610px
+}
 }
